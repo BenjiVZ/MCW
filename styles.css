@@ -1,0 +1,205 @@
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  .seccion {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+  .seccion {
+    width: 50%;
+    padding: 40px;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .seccion {
+    width: 33.33%;
+    padding: 60px;
+  }
+}
+
+/* fondo */
+.fondo
+{
+  width: 90%;
+  height: 500px;
+  background: url("rollover-istobal_pictures-002b-1024x615.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* boton */
+button {
+  background-color: #F71919;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.verde {
+  background-color: rgb(22, 215, 48);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* secciones */
+.boxpag1os {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.boxpag1{
+  background-color: #ffffff;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* menu */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.imgs {
+  height: 50px;
+}
+
+/* otros */
+.boton1 {
+  background-color: #5AD678;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bien {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #5AD678;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  font-size: 1em;
+}
+
+/* .izquieda {
+margin-left: 50px;
+}
+
+.derecha {
+  margin-left: 900px;
+} */
+
+/* pie de pagina */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para las secciones de la pagina 2 */
+.sec1 {
+  padding: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.boxpag2{
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sec3 {
+  padding: 50px;
+  background-color: #f2f2f2;
+
+}
+
+.imgG {
+  width: 300px;
+  height: 200px;
+}
+
+.secverde {
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
